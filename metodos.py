@@ -1,8 +1,11 @@
+# Metodos e Construtores
+
 '''
 classe 
 objetos
 construtor
 metodos
+    Quando uma classe tem uma funçao, esta e chamada de metodo.
 atributos
 herança
 sobrecarga
@@ -26,8 +29,13 @@ class Casa(object):
     altura = 3
     quartos = 10
 
+    def pintar(self, cor):
+        self.cor = cor
 
 #Vou criar um objeto.
-minha_casa =  Casa()     #Agora a classe foi instanciada. Ela passou a existir.
+minha_casa = Casa()     #Agora a classe foi instanciada. Ela passou a existir.
 print(minha_casa.cor, str(minha_casa.altura))
 
+print(minha_casa.pintar('branco'))
+
+print('oi')
