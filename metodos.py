@@ -48,3 +48,9 @@ class Casa(object):
 minha_casa = Casa("red", 3, 5)
 
 minha_casa.imprime_casa()
+
+minha_casa.altura = 34
+minha_casa.cor = "Azul"
+minha_casa.quartos = 9
+
+minha_casa.imprime_casa()
