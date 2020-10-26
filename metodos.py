@@ -1,6 +1,6 @@
 # Metodos e Construtores
 
-'''
+"""
 classe 
 objetos
 construtor
@@ -14,16 +14,16 @@ sobrecarga
 poliformismo
 destrutores
 herança
-'''
+"""
 
-'''
+"""
 Quando vc desenha a planta de uma casa isso nao quer dizer que ela existe 
 Isso e uma classe.
-'''
-#Toda classe do Python vai herdar no minimo de Object.
-# O objecto e a concretizaçao de uma classe. 
+"""
+# Toda classe do Python vai herdar no minimo de Object.
+# O objecto e a concretizaçao de uma classe.
 # Vou criar realmente na memoria no pc uma "pessoal" oriunda da classe.
-#Atributos de uma classe sao os 'adjetivos desta. No caso de uma Classe pessoa
+# Atributos de uma classe sao os 'adjetivos desta. No caso de uma Classe pessoa
 #   temos como possiveis atributos, nome, idade, sexo.
 class Casa(object):
     cor = "Amarela"
@@ -42,18 +42,9 @@ class Casa(object):
         self.quartos = quartos
 
     def imprime_casa(self):
-        print(self.cor,self.altura,self.quartos)
+        print(self.cor, self.altura, self.quartos)
 
 
-minha_casa = Casa('vermelha',2,23)
+minha_casa = Casa("red", 3, 5)
 
 minha_casa.imprime_casa()
-
-
-
-
-
-
-
-
-
